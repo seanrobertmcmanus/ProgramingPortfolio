@@ -1,0 +1,12 @@
+{
+    "name":"alarms",
+    "type":"STUP",
+    "user_ref_words":[
+        {
+            "function":"set_alarm",
+            "call_words":["set alarm", "alarm"],
+            "returns":0,
+            "needs":1
+        }
+    ]
+}
