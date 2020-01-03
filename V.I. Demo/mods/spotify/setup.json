@@ -1,0 +1,42 @@
+{
+    "name":"spotify",
+    "type":"general",
+    "user_ref_words":[
+        {
+            "function":"skip_track",
+            "call_words":["spotify skip track", "skip", "next", "next song"],
+            "returns":0,
+            "needs":1
+        },
+        {
+            "function":"previous_track",
+            "call_words":["spotify previous track", "previous", "before", "previous song"],
+            "returns":0,
+            "needs":1
+        },
+        {
+            "function":"set_volume",
+            "call_words":["set volume,","lower", "lower volume", "higher", "higher volume", "medium", "medium volume", "full", "full volume", "off", "volume off"],
+            "returns":0,
+            "needs":1
+        },
+        {
+            "function":"get_playlists",
+            "call_words":["get playlists"],
+            "returns":1,
+            "needs":1
+        },
+        {
+            "function":"get_album",
+            "call_words":["get album"],
+            "returns":1,
+            "needs":1
+        },
+        {
+            "function":"pause_play",
+            "call_words":["pause song", "pause", "resume", "resume song", "play"],
+            "returns":0,
+            "needs":1
+        }
+    ]
+}

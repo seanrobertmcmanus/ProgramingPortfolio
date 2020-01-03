@@ -1,0 +1,25 @@
+{
+    "name":"lookup",
+    "type":"general",
+    "user_ref_word":[
+        {
+            "function":"movie_music",
+            "call_words":["top", "top movies","top songs","top artists","top albums","movies","movie","film","films","song","songs"],
+            "returns":0,
+            "needs":1
+        },
+        {
+            "function":"area",
+            "call_words":["near to me ", "near", "are", "close", "close to me", "around", "restaurants", "food", "place"],
+            "returns":0,
+            "needs":1
+        },
+        {
+            "function":"define",
+            "call_words":["define","what does","meaning"],
+            "returns":0,
+            "needs":1
+        }
+
+    ]
+}
